@@ -3,8 +3,8 @@
 
 ![logo](http://www.python.org/images/python-logo.gif)
 
-##2013.06.30
-##2013.07.06
+##[2013.06.30 Data Type](https://github.com/pythonflaskstudy2013/Weekly--Python-/tree/master/130630_Python_Data_Type)
+##[2013.07.06 Control Structure](https://github.com/pythonflaskstudy2013/Weekly--Python-/wiki/Control-Structure)
 ##2013.07.13
 
 
