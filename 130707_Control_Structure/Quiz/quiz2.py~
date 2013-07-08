@@ -1,0 +1,12 @@
+#!/bin/sh
+
+def ant_sequence(numbers):
+    for number in numbers:
+        print number + '\n'
+
+''' http://en.wikipedia.org/wiki/Look-and-say_sequence '''
+data = ['1', '11', '21', '1211', '111221', '312211', '13112221', '1113213211'];
+
+for number in data:
+    print ant_sequence(number)
+
