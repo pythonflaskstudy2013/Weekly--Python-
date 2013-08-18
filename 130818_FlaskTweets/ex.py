@@ -2,6 +2,8 @@
 from flask import Flask
 from flask import render_template, render_template_string, request
 
+import math
+
 app = Flask(__name__)
 
 books = ['Programming in Scala', 'Mining the Social Web', 'Pattern-Oriented Software Architecture']
@@ -27,5 +29,26 @@ def forms():
 @app.route('/filter')
 def filter():
 	return render_template('filter.html')
+
+@app.route('/custom')
+def custom():
+	return render_template('custom.html')
+
+@app.template_filter()
+def reverse(text):
+	return text[::-1]
+
+@app.template_test()
+def is_prime(n):
+    if n == 2:
+        return True
+    for i in range(2, int(math.ceil(math.sqrt(n))) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+@app.template_global()
+def whoami():
+	return 'My Name is Daegeun'
 
 app.run(debug=True)

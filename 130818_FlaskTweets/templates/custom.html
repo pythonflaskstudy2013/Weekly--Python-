@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Animals{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+<p class="important">
+  <ul>
+    <li>whoami: {{ whoami() }}</li>
+    <li>reverse: {{ "Hello World" | reverse }}</li>
+    <li>is_prime: {% if 7 is is_prime %}7 is prime{% endif %}</li>
+  </ul>
+</p>
+{% endblock %}
