@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Animals{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+    <h1>Animals</h1>
+    <p class="important">
+      <h3>All</h3>
+      <ul>
+{% for animal in animals %}
+        <li>{{ animal }}</li>
+{% endfor %}
+      </ul>
+
+      <h3>animal != 'dog'</h3>
+      <ul>
+{% for animal in animals %}
+{% if animal != 'dog' %}
+        <li>{{ animal }}</li>
+{% endif %}
+{% endfor %}
+      </ul>
+
+      <h3>animal != 'dog'</h3>
+      <ul>
+{% for animal in animals if animal != 'dog' %}
+        <li>{{ animal }}</li>
+{% endfor %}
+      </ul>
+    </p>
+{% endblock %}

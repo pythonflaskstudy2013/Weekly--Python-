@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Animals{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+
+<p class="important">
+  <h2>default</h2>
+  <ul>
+    <li>name : {{ name | default('name is null') }}
+    {% set name = 'Daegeun Kim' %}
+    <li>name : {{ name | default('name is null') }}
+  </ul>
+  <h2>upper & lower filter</h2>
+  <ul>
+    <li>normal : {{ "Hello World" }}</li>
+    <li>upper: {{ "Hello World"|upper }}</li>
+    <li>lower: {{ "Hello World"|lower }}</li>
+  </ul>
+
+  {% filter upper %}
+    abcdef
+  {% endfilter %}
+</p>
+
+{% endblock %}

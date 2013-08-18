@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <title>Books</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<ul>
+{% for book in books %}
+  <li>{{ book }}</li>
+{% endfor %}
+</ul>
+
+<ul>
+{% for href, caption in [('index.html', 'Index'), ('about.html', 'About'),
+                         ('downloads.html', 'Downloads')] %}
+    <li><a href="{{ href }}">{{ caption }}</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>

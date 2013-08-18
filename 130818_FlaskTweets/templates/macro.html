@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Animals{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+
+<p class="important">
+{% import 'forms.html' as forms %}
+
+<dl>
+    <dt>Username</dt>
+    <dd>{{ forms.input('username') }}</dd>
+    <dt>Password</dt>
+    <dd>{{ forms.input('password', type='password') }}</dd>
+</dl>
+<p>{{ forms.textarea('comment') }}</p>
+
+</p>
+
+{% endblock %}

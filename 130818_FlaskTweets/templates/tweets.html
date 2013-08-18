@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<title>My Tweets</title>
+</head>
+<body>
+<form action="/update" method="post">
+    <input type="submit" value="Update" /><br />
+    <textarea name="status" cols="100" rows="5"></textarea>
+</form>
+<h1>Tweets v3</h1>
+<ul>
+{% for tweet in tweets %}
+  <li>{{ tweet }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
