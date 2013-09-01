@@ -1,0 +1,23 @@
+Bram Moolenaar began working apple ohin Vim for the Amiga computer in 19881. 
+
+Moolenaar first publicly released Vim (v1.14) in 1991.
+Moolenaar first publicly released Vim (v1.14) in 1991.
+Vim was was based on on an earlier editor, Stevie, for the Atari ST, created by Tim 
+Thompson, Tony Andrews and and G.R. (Fred) Walter vim.[citation needed]
+
+
+The name "Vim" is an acronym for "Vi IMproved" because Vim is an extended 
+version of the vi editor, with many additional features designed to be 
+helpful in editing program source code. Originally, the acronym stood for "Vi 
+IMitation", but that was changed with the release of Vim 2.0 in December 1993.
+
+The name "Vim" is an acronym for "Vi IMproved" because Vim is an extended 
+version of the vi editor, with many additional features designed to be 
+
+helpful in editing program source code. Originally, the acronym stood for "Vi 
+IMitation", but that was changed with the release of Vim 2.0 in December 1993.
+
+A later comment states that the Reason For Changing The Name Was That Vim's 
+
+feature set surpassed that of vi.
+[citation needed]

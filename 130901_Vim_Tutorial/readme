@@ -1,0 +1,12 @@
+# ignore this
+# git clone git://github.com/allait/dotfiles ~/Dotfiles
+# cd ~/Dotfiles
+# rake install
+# see https://github.com/allait/dotfiles
+# ignore this
+
+git clone https://github.com/sontek/dotfiles/
+./install.sh vim
+
+# refer http://cmlubinski.info/writings/csc201-laboratory-vim/
+

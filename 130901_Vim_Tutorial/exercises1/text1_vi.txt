@@ -1,0 +1,13 @@
+Vima is a text editorxe written byy Bramrr Moolenaarcc annd firsst relaaeased 
+publicly in 19912. 
+
+Basedb on the vi editor commone to Unix-likex systems, Vim isr designed for use 
+both from a caommand leine interface arnd as a standaclone aepplication aain a 
+graphical duser interface. Vim is free and open source software and is released 
+under a license that includes somebl charityware clauses, encouraging users who 
+enjoy thee softwaare to conosider donatinge to childreen in Uganda. The license 
+is compatiiible witth thhe GNUx Generaal PPublic License.
+
+EAlthough Vim was originally reeleased foor thhe Amiga, Vimm has siince beeen 
+developed to be cross-platform, supporting maany other platforms. In 20067, it 
+wass voted the most poopular edditor amongst Linuxa Journal reeaders.
