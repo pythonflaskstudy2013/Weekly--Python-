@@ -1,0 +1,10 @@
+# ignore this
+# git clone git://github.com/allait/dotfiles ~/Dotfiles
+# cd ~/Dotfiles
+# rake install
+# see https://github.com/allait/dotfiles
+
+git clone https://github.com/sontek/dotfiles/
+./install.sh vim
+
+
